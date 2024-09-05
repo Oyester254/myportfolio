@@ -20,7 +20,7 @@ const About = ({ onNavigate }) => {
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             My Profile
           </h1>
-          <p className="text-centersm:text-left">
+          <p className="text-left">
             I am a versatile professional with a strong foundation in
             mathematics, web development, and data analysis. My passion lies in
             blending analytical thinking with technical expertise to craft
@@ -29,7 +29,7 @@ const About = ({ onNavigate }) => {
             frameworks, I approach each project with creativity, precision, and
             a commitment to excellence.ry.
           </p>
-          <p className="py-8 text-center sm:text-left">
+          <p className="py-8 text-left">
             I thrive on solving complex challenges and delivering impactful
             results. Whether it’s designing user-friendly web applications or
             extracting actionable insights from data, I bring a unique

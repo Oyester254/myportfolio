@@ -15,7 +15,7 @@ const Contact = () => {
       <div className="sm:flex w-full justify-center items-center">
         <div className="w-full  flex justify-center flex-col">
           <h2 className="font-bold text-3xl p-3 m-3">Let's Talk</h2>
-          <p className="font-bodyFont text-xl ">
+          <p className="font-bodyFont text-[15px] text-center sm:text-left">
             I'm open to discussing Website Development projects, Data Analysis
             Jobs, Mathematical Related Tasks, Art Analysis or collaboration
             opportunities.
