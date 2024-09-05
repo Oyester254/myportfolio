@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import { useState } from "react";
 import { FaRProject } from "react-icons/fa";
 
@@ -44,7 +44,7 @@ const Data = ({ handleExit }) => {
               <div className="aspect-video ">
                 <iframe
                   title="dat1"
-                  src="/loan.pdf#toolbar=0"
+                  src="./loan.pdf#toolbar=0"
                   type="application/pdf"
                   className="w-full h-full"
                 />
@@ -68,7 +68,7 @@ const Data = ({ handleExit }) => {
               <div className="aspect-video">
                 <iframe
                   title="dat2"
-                  src="/cle.pdf"
+                  src="./cle.pdf"
                   type="application/pdf"
                   className="w-full h-full"
                 />
