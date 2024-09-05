@@ -113,7 +113,7 @@ const Home = () => {
             cursorBlinking="false" cursorStyle="|" cursorColor="#ff014f"
           </Cursor>
         </h2>
-        <p className="w-10/12 text-base font-bodyFont leading-6 tracking-wide p-6 sm:text-[12pt] sm:text-center">
+        <p className="w-10/12 text-base font-bodyFont leading-relaxed tracking-wide p-6 text-center sm:text-[12pt] sm:text-center">
           Skilled mathematician, web developer, and data analyst; excels in
           problem-solving, coding, data visualization, and creating efficient
           web solutions. Looking forward to actualize your designs using code!
