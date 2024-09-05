@@ -44,7 +44,7 @@ const Data = ({ handleExit }) => {
               <div className="aspect-video ">
                 <iframe
                   title="dat1"
-                  src="/myportfolio/loan.pdf#toolbar=0"
+                  src="./formal.pdf#toolbar=0"
                   type="application/pdf"
                   className="w-full h-full"
                 />
@@ -68,7 +68,7 @@ const Data = ({ handleExit }) => {
               <div className="aspect-video">
                 <iframe
                   title="dat2"
-                  src="myportfolio/cle.pdf"
+                  src="./cle.pdf"
                   type="application/pdf"
                   className="w-full h-full"
                 />
