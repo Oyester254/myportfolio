@@ -47,9 +47,13 @@ const Footer = () => {
             <li className=" py-2 text-sm">DEv Tools</li>
           </ul>
         </div>
+      </div>
+      <div className="position-absolute flex flex-col justify-center items-center w-full">
+        {/* <div className="flex flex-col justify-center items-center w-full">
         <p className="text-center sm:text-justify sm:text-[12px]  text-[10px]">
-          &copy; 2024 Your Company Name. All rights reserved.
+          &copy; 2024 Mish_254+. All rights reserved.
         </p>
+      </div> */}
       </div>
     </div>
   );
