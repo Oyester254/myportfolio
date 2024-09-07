@@ -53,7 +53,7 @@ const Projects = () => {
       <div className="">
         <div className="sm:grid grid-cols-3 gap-2 ">
           {/* //flex flex-col gap-4 */}
-          <div className="w-full ">
+          <div className="w-full text-[15px] sm:text-lg">
             <button
               onClick={handleArt}
               className=" group bg-gradient-to-r from-teal-500 to-blue-500 w-60 px-6 py-3 font-bodyFont my-2 flex justify-center items-center rounded-sm text-white h-20 "
@@ -63,7 +63,7 @@ const Projects = () => {
             </button>
             <>{artNav && <Art handleExit={handleExitArt} />}</>
           </div>
-          <div className="w-full">
+          <div className="w-full text-[15px] sm:text-lg">
             <button
               onClick={handleMath}
               className=" group bg-gradient-to-r from-teal-500 to-blue-500 w-60 px-6 font-bodyFont py-3 my-2 flex justify-center items-center rounded-sm text-white h-20 "
@@ -73,7 +73,7 @@ const Projects = () => {
             </button>
             <>{mathNav && <Math handleExit={handleExitMath} />}</>
           </div>
-          <div className="w-full">
+          <div className="w-full text-[15px] sm:text-lg">
             <button
               onClick={handleDat}
               className=" group bg-gradient-to-r from-teal-500 to-blue-500 font-bodyFont w-60 px-6 py-3 my-2 flex justify-center items-center rounded-sm text-white h-20 "
@@ -83,7 +83,7 @@ const Projects = () => {
             </button>
             <>{datNav && <Data handleExit={handleExitDat} />}</>
           </div>
-          <div className="w-full">
+          <div className="w-full text-[15px] sm:text-lg">
             <button
               onClick={handleWeb}
               className=" group bg-gradient-to-r from-teal-500 to-blue-500 w-60 font-bodyFont px-6 py-3 my-2 flex items-center justify-center rounded-sm text-white h-20  "
@@ -93,7 +93,7 @@ const Projects = () => {
             </button>
             <>{webNav && <Web handleExit={handleExitWeb} />}</>
           </div>
-          <div className="w-full">
+          <div className="w-full text-[15px] sm:text-lg">
             <button
               onClick={handleGraphics}
               className=" group bg-gradient-to-r from-teal-500 to-blue-500 w-60 font-bodyFont px-6 py-3 my-2 flex items-center justify-center rounded-sm text-white h-20  "

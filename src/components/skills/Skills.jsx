@@ -64,7 +64,7 @@ const Skills = () => {
       className="w-full py-10 px-10 border-b-[1px]  border-b-gray-600 mx-2"
     >
       <Title title="Skills" des="What I Do" />
-      <div className=" flex flex-col m-auto gap-8 sm:grid grid-cols-2 lg:grid-cols-3 ">
+      <div className=" flex flex-col m-auto gap-8 sm:grid grid-cols-2 lg:grid-cols-3">
         {cards.map(({ id, title, icon, des, icon2 }) => (
           <Card key={id} title={title} des={des} icon={icon} icon2={icon2} />
         ))}

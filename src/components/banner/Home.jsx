@@ -113,13 +113,13 @@ const Home = () => {
             cursorBlinking="false" cursorStyle="|" cursorColor="#ff014f"
           </Cursor>
         </h2>
-        <p className="w-10/12 text-base font-bodyFont leading-relaxed tracking-wide p-6 text-center sm:text-[12pt] sm:text-center">
+        <p className="w-10/12 text-base font-bodyFont text-center sm:text-[16px]  text-[12px] tracking-tight p-6">
           Skilled mathematician, web developer, and data analyst; excels in
           problem-solving, coding, data visualization, and creating efficient
           web solutions. Looking forward to actualize your designs using code!
         </p>
         <a href="https://www.linkedin.com/in/misheck-mwangi-345804208/">
-          <button className=" group bg-gradient-to-r from-teal-500 to-blue-500 w-fit px-6 py-3 my-2  flex items-center rounded-md text-white  ">
+          <button className=" group bg-gradient-to-r from-teal-500 to-blue-500 w-fit px-6 py-3 my-2  flex items-center rounded-md text-white text-[15px] sm:text-md ">
             ReadMore
             <span className=" group-hover:rotate-90 duration-500">
               <MdOutlineKeyboardArrowRight size={25} />
@@ -128,7 +128,7 @@ const Home = () => {
         </a>
         <div className="w-full sm:flex mt-10 h-auto px-2 py-5">
           <div className="sm:w-6/12 w-full h-full flex flex-col items-center">
-            <h2 className="text-base uppercase text-center mb-4 font-semibold">
+            <h2 className="text-base uppercase text-center mb-4 font-semibold sm:text-lg  text-[12px] tracking-tight">
               My Social Links
             </h2>
             <div className="flex gap-2 justify-center items-center py-2 ">
@@ -155,7 +155,7 @@ const Home = () => {
             </div>
           </div>
           <div className="sm:w-6/12 w-full h-full flex flex-col items-center">
-            <h2 className="text-base uppercase text-center mb-4 mt-2 font-semibold">
+            <h2 className="text-base uppercase text-center mb-4 mt-2 font-semibold sm:text-[15px]  text-[12px] tracking-tight">
               Proficient In
             </h2>
             <div className="flex gap-2 justify-center items-center py-2 ">

@@ -32,7 +32,7 @@ const More = ({ onBack }) => {
         style={{ maxHeight: "90vh", margin: "5vh 0" }} // Ensures the modal is centered with margin
         transition={{ type: "spring", stiffness: 120 }}
       >
-        <div className="w-full sm:flex mx-2 ">
+        <div className="w-full sm:flex sm:flex-col mx-2 ">
           <div className="w-full flex flex-col justify-center content-center px-4 py-4">
             <p className="text-designColor uppercase font-bold lg:text-xl">
               continuation
@@ -40,7 +40,7 @@ const More = ({ onBack }) => {
             <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
               ...
             </h1>
-            <p className="m-auto">
+            <p className="text-justify sm:text-[15px]  text-[12px] tracking-tight">
               Beyond my technical expertise, I am also an artist and graphic
               designer with a deep appreciation for the creative process. I find
               inspiration in analyzing artistic paintings and historical
@@ -48,7 +48,7 @@ const More = ({ onBack }) => {
               behind each piece. This passion for art and history fuels my
               creative work, allowing me to incorporate rich, historical
               perspectives and artistic sensibilities into my designs.
-              <p className="py-4 m-auto">
+              <p className="py-4 text-justify sm:text-[15px]  text-[12px] tracking-tight">
                 I am continuously learning and expanding my knowledge of
                 history, as I believe that understanding the past is key to
                 creating impactful and timeless work. Whether through visual art
@@ -59,7 +59,7 @@ const More = ({ onBack }) => {
                 meaning and artistry.
               </p>
             </p>
-            <p className="py-8">
+            <p className="py-8 text-justify sm:text-[15px]  text-[12px] tracking-tight text-lg">
               Proficient in multiple programming languages and development
               frameworks, ensuring efficient and innovative project
               delivery.languages and development frameworks, ensuring efficient

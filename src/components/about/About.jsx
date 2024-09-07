@@ -14,13 +14,13 @@ const About = ({ onNavigate }) => {
           <img src={d20} alt="" className="w-[500px] rounded-lg mx-2 my-2" />
         </div>
         <div className="w-full flex flex-col justify-center content-center px-4 py-4">
-          <p className="text-designColor uppercase font-bold lg:text-xl">
-            Bsc. Holder Mathematics & Computer Science
-          </p>
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+          <h1 className="md:text-4xl sm:text-3xl text-xl font-bold py-2 ">
             My Profile
           </h1>
-          <p className="text-base sm:text-sm md:text-lg lg:text-xl">
+          <p className="text-designColor uppercase font-bold text-center sm:text-justify sm:text-[12px]  text-[10px] py-4 tracking-tight">
+            Bsc. Holder Mathematics & Computer Science
+          </p>
+          <p className="text-justify sm:text-[15px]  text-[12px] tracking-tight">
             I am a versatile professional with a strong foundation in
             mathematics, web development, and data analysis. My passion lies in
             blending analytical thinking with technical expertise to craft
@@ -29,7 +29,7 @@ const About = ({ onNavigate }) => {
             frameworks, I approach each project with creativity, precision, and
             a commitment to excellence.ry.
           </p>
-          <p className="py-8 text-base sm:text-sm md:text-lg lg:text-xl">
+          <p className="py-8 text-justify sm:text-[15px] text-[12px] tracking-tight">
             I thrive on solving complex challenges and delivering impactful
             results. Whether it’s designing user-friendly web applications or
             extracting actionable insights from data, I bring a unique

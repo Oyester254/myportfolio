@@ -12,28 +12,31 @@ const Contact = () => {
       me
     >
       <Title title="Contacts" des="Contacts" />
-      <div className="sm:flex w-full justify-center items-center">
-        <div className="w-full  flex justify-center flex-col">
-          <h2 className="font-bold text-3xl p-3 m-3">Let's Talk</h2>
-          <p className="font-bodyFont text-[15px] text-center sm:text-left">
+      <div className="">
+        <div className="w-full  flex flex-col">
+          <h2 className="font-bold text-3xl p-1 m-3">Let's Talk</h2>
+          <p className="font-bodyFont text-[12px] sm:text-lg mx-2 text-center sm:text-left">
             I'm open to discussing Website Development projects, Data Analysis
             Jobs, Mathematical Related Tasks, Art Analysis or collaboration
             opportunities.
           </p>
 
-          <div className="py-4">
+          <div className="py-4 mx-2">
             <div className=" flex items-center gap-2 font-bodyFont">
-              <MdEmail className="text-cyan-500 " /> misheckmwas97@gmail.com
+              <MdEmail className="text-cyan-500 text-[15px] sm:text-lg" />{" "}
+              misheckmwas97@gmail.com
             </div>
             <div className="flex items-center gap-2 py-2 font-bodyFont">
-              <FaPhoneAlt className="text-green-400" /> +254703197935
+              <FaPhoneAlt className="text-green-400 text-[15px] sm:text-lg" />{" "}
+              +254703197935
             </div>
             <div className="flex items-center gap-2 font-bodyFont ">
-              <FaLocationDot className="text-red-700" /> Nairobi, Kenya.
+              <FaLocationDot className="text-red-700 text-[15px] sm:text-lg" />{" "}
+              Nairobi, Kenya.
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-center items-center  flex-col">
+        <div className="w-3/4 flex  flex-col">
           <h2 className="font-bold text-3xl p-3 m-3">Reach Me</h2>
           <div className="p-2 m-2">
             <form
