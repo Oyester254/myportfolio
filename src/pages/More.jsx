@@ -59,13 +59,13 @@ const More = ({ onBack }) => {
                 meaning and artistry.
               </p>
             </p>
-            <p className="py-8 text-justify sm:text-[15px]  text-[12px] tracking-tight text-lg">
+            <p className="py-8 text-justify sm:text-[15px]  text-[12px] tracking-tight">
               Proficient in multiple programming languages and development
               frameworks, ensuring efficient and innovative project
               delivery.languages and development frameworks, ensuring efficient
               and innovative project delivery
             </p>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-3 text-justify sm:text-[15px]  text-[12px] tracking-tight">
               <div>HTML</div>
               <div>REACT</div>
               <div>PYTHON</div>
