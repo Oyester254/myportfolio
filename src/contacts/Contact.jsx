@@ -15,7 +15,7 @@ const Contact = () => {
       <div className="">
         <div className="w-full  flex flex-col">
           <h2 className="font-bold text-3xl p-1 m-3">Let's Talk</h2>
-          <p className="font-bodyFont text-[12px] sm:text-lg mx-2 text-justify sm:text-left">
+          <p className="font-bodyFont text-[12px] sm:text-lg mx-2 text-left sm:text-left">
             I'm open to discussing Website Development projects, Data Analysis
             Jobs, Mathematical Related Tasks, Art Analysis or collaboration
             opportunities.
