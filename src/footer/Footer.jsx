@@ -47,6 +47,9 @@ const Footer = () => {
             <li className=" py-2 text-sm">DEv Tools</li>
           </ul>
         </div>
+        <p className="text-center sm:text-justify sm:text-[12px]  text-[10px]">
+          &copy; 2024 Your Company Name. All rights reserved.
+        </p>
       </div>
     </div>
   );
