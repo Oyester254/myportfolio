@@ -39,7 +39,7 @@ const Skills = () => {
     {
       id: 4,
       title: "Graphics Designer",
-      des: " Specializing in creating visually compelling designs. Proficient in CorelDRAW and other industry-standard software, they excel in branding, illustration, and digital media, delivering impactful visual solutions",
+      des: " Specializing in creating visually compelling designs. Proficient in CorelDRAW and other industry-standard software, I excel in branding, illustration, and digital media, delivering impactful visual solutions.",
       icon: <SiCoreldraw size={50} />,
       icon2: <IoArrowRedoSharp size={25} />,
     },
