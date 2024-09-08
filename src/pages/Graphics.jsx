@@ -42,6 +42,8 @@ const Graphics = ({ handleExit }) => {
             {view ? (
               <div className="aspect-video ">
                 <iframe
+                  width="600"
+                  height="400"
                   title="graph1"
                   src="./digital.jpg#toolbar=0"
                   type="application/pdf"

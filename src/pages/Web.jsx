@@ -42,7 +42,7 @@ const Web = ({ handleExit }) => {
               <div className="aspect-video ">
                 <iframe
                   title="web1"
-                  src="./formal.pdf#toolbar=0"
+                  src="./"
                   type="application/pdf"
                   className="w-full h-full"
                 />
@@ -66,7 +66,7 @@ const Web = ({ handleExit }) => {
               <div className="aspect-video">
                 <iframe
                   title="web2"
-                  src="./math.pdf#toolbar=0"
+                  src="./"
                   type="application/pdf"
                   className="w-full h-full"
                 />
