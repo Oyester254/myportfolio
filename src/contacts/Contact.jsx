@@ -36,7 +36,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="sm:w-3/4 flex w-full flex-col">
+        <div className="sm:w-3/6 flex w-full flex-col">
           <h2 className="font-bold text-3xl p-3 m-3">Reach Me</h2>
           <div className="p-2 m-2">
             <form
