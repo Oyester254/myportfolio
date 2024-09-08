@@ -22,15 +22,15 @@ const Contact = () => {
           </p>
 
           <div className="py-4 mx-2">
-            <div className=" flex items-center gap-2 font-bodyFont">
+            <div className=" flex items-center gap-2 font-bodyFont text-[12px] ">
               <MdEmail className="text-cyan-500 text-[15px] sm:text-lg" />{" "}
               misheckmwas97@gmail.com
             </div>
-            <div className="flex items-center gap-2 py-2 font-bodyFont">
+            <div className="flex items-center gap-2 py-2 font-bodyFont text-[12px] ">
               <FaPhoneAlt className="text-green-400 text-[15px] sm:text-lg" />{" "}
               +254703197935
             </div>
-            <div className="flex items-center gap-2 font-bodyFont ">
+            <div className="flex items-center gap-2 font-bodyFont text-[12px] ">
               <FaLocationDot className="text-red-700 text-[15px] sm:text-lg" />{" "}
               Nairobi, Kenya.
             </div>

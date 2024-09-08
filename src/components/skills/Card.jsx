@@ -13,7 +13,7 @@ const Card = ({ title, des, icon, icon2 }) => {
           <h2 className="text-xl sm:text-2xl font-titleFont font-bold text-white">
             {title}
           </h2>
-          <p className="py-1 text-black font-bodyFont text-[8pt] text-justify  sm:text-[16px] whitespace-normal tracking-tight">
+          <p className="py-1 text-black font-bodyFont text-[12px]  text-clip text-justify sm:text-[16px] whitespace-normal tracking-tight">
             {des}
             <span className=" flex pt-1 cursor-pointer text-white font-bold">
               {icon2}

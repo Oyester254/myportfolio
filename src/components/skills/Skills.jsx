@@ -14,7 +14,7 @@ const Skills = () => {
     {
       id: 1,
       title: "Data Analyst",
-      des: " Skilled data analyst proficient in Excel, Python, Google Colab, and SPSS, adept at transforming data into actionable insights through advanced analysis and visualization techniques.",
+      des: "I'm a skilled data analyst proficient in Excel, Python, Google Colab, and SPSS, adept at transforming data into actionable insights through advanced data analysis and visualization techniques.",
       icon: <SiAlwaysdata size={50} />,
       icon2: (
         <a href="https://onlinestatbook.com/2/calculators/normal_dist.html">
@@ -25,14 +25,14 @@ const Skills = () => {
     {
       id: 2,
       title: "Web Developer",
-      des: "Proficient in React.Js Framework, Tailwind CSS Framework. Additionally am well versed in JavaScript, HTML, CSS, Python, PHP, MySQL and Java.",
+      des: "Proficient in React.Js Framework and Tailwind CSS. Additionally am well versed in JavaScript, HTML, CSS, Python, PHP, MySQL and Java.",
       icon: <SiAlwaysdata size={50} />,
       icon2: <IoArrowRedoSharp size={25} />,
     },
     {
       id: 3,
       title: "Artist",
-      des: "I'm a multifaceted artist known for evocative paintings, insightful art critiques, and detailed writings on art history, offering profound perspectives on artistic techniques and historical contexts.",
+      des: "I'm a multifaceted artist known for evocative and thematic paintings, insightful art critiques, and detailed writings on art history, offering profound perspectives on artistic techniques and historical contexts.",
       icon: <MdDraw size={50} />,
       icon2: <IoArrowRedoSharp size={25} />,
     },
