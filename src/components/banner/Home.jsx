@@ -72,7 +72,7 @@ const Home = () => {
     {
       id: 3,
       child: <FaLinkedinIn />,
-      href: "https://www.linkedin.com/in/misheck-mwangi-345804208/",
+      href: "https://www.linkedin.com/in/misheckmwangi/",
     },
   ];
   const languages = [
@@ -118,7 +118,7 @@ const Home = () => {
           problem-solving, coding, data visualization, and creating efficient
           web solutions. Looking forward to actualize your designs using code!
         </p>
-        <a href="https://www.linkedin.com/in/misheck-mwangi-345804208/">
+        <a href="https://www.linkedin.com/in/misheckmwangi/">
           <button className=" group bg-gradient-to-r from-teal-500 to-blue-500 w-fit px-6 py-3 my-2  flex items-center rounded-md text-white text-[15px] sm:text-md ">
             ReadMore
             <span className=" group-hover:rotate-90 duration-500">
