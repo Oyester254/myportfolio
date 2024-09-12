@@ -12,7 +12,7 @@ const Test = () => {
       {view ? (
         <div className="">
           <embed
-            src="/Formal Analysis.pdf#toolbar=0"
+            src="Formal Analysis.pdf#toolbar=0"
             type="application/pdf"
             width="500px"
             height="500px"
