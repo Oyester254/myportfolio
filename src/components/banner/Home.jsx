@@ -52,7 +52,7 @@ const Home = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/professionalcv.pdf",
+      href: "/MyProfessional_CV.pdf",
       style: "rounded-br-md",
       download: true,
     },
