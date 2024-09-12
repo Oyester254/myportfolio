@@ -45,7 +45,7 @@ const Graphics = ({ handleExit }) => {
                   width="600"
                   height="400"
                   title="graph1"
-                  src="/digital.jpg#toolbar=0"
+                  src="./digital.jpg#toolbar=0"
                   type="application/pdf"
                   className="w-full h-full"
                 />
@@ -69,7 +69,7 @@ const Graphics = ({ handleExit }) => {
               <div className="aspect-video ">
                 <iframe
                   title="graph2"
-                  src="/ajira.jpg#toolbar=0"
+                  src="./ajira.jpg#toolbar=0"
                   type="application/pdf"
                   className="w-full h-full"
                 />

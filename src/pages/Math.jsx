@@ -43,7 +43,7 @@ const Math = ({ handleExit }) => {
               <div className="aspect-video ">
                 <iframe
                   title="math1"
-                  src="/parametric.pdf#toolbar=0"
+                  src="./parametric.pdf#toolbar=0"
                   type="application/pdf"
                   className="w-full h-full"
                 />
@@ -67,7 +67,7 @@ const Math = ({ handleExit }) => {
               <div className="aspect-video ">
                 <iframe
                   title="math2"
-                  src="/math.pdf#toolbar=0"
+                  src="./math.pdf#toolbar=0"
                   type="application/pdf"
                   className="w-full h-full"
                 />
